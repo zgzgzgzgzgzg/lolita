@@ -1,25 +1,31 @@
 <template>
   <div class="home">
-      <el-container>
-          <el-header>
-            <head-nav></head-nav>
-          </el-header>
-        <el-main>
-          <router-view/>
-        </el-main>
-      </el-container>
+    <el-container class="main-container">
+      <HeaderNav class="header"></HeaderNav>
+      <el-main>
+        <router-view></router-view>
+      </el-main>
+    </el-container>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HeadNav from "../components/HeadNav";
+// import HelloWorld from '@/components/HelloWorld.vue'
+import HeaderNav from "../components/HeaderNav";
 
 export default {
   name: 'home',
   components: {
-    HeadNav
+    HeaderNav
   },
+  data(){
+    return{
 
+    }
+  },
+  methods:{
+
+  }
 }
 </script>
