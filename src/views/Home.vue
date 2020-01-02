@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <el-container class="main-container">
-      <HeaderNav class="header"></HeaderNav>
+      <el-header class="ele-header" style="padding: 0px">
+        <HeaderNav class="header"></HeaderNav>
+      </el-header>
       <el-main>
         <router-view></router-view>
       </el-main>
@@ -29,3 +31,6 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+
+</style>

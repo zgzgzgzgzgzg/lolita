@@ -1,6 +1,7 @@
 <template>
-    <div>1
-    22222222</div>
+    <div>
+
+    </div>
 </template>
 
 <script>
